@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "PB",
+    "title": "Azure Blog",
     "description": "",
     "home_page_url": "https://theragus.github.io",
     "feed_url": "https://theragus.github.io/feed.json",
@@ -9,5 +9,19 @@
         "name": "Patrick Bossier"
     },
     "items": [
+        {
+            "id": "https://theragus.github.io/azure-blockchain-service-now-in-public-preview.html",
+            "url": "https://theragus.github.io/azure-blockchain-service-now-in-public-preview.html",
+            "title": "Azure Blockchain Service now in Public Preview",
+            "summary": "At Build 2019, Microsoft anounced their new fully managed Blockchain Service, which is now in Public Preview. Read the Blog Entry here. Azure Blockchain Service takes the heavy load of operating nodes and networks and allows easy creation of permissioned blockchain networks. The first Ledger&hellip;",
+            "content_html": "<p>At Build 2019, Microsoft anounced their new fully managed Blockchain Service, which is now in Public Preview. Read the Blog Entry <a href=\"https://azure.microsoft.com/de-de/blog/digitizing-trust-azure-blockchain-service-simplifies-blockchain-development/\">here</a>.</p>\n<p>Azure Blockchain Service takes the heavy load of operating nodes and networks and allows easy creation of permissioned blockchain networks. The first Ledger thats gonna be available on Azure Blockchain Service is Quorum, which is based on the Ethereum, which is one of the largest Blockchain developer communities out there.</p>\n<p>You can try it our yourself today in the Azure Portal. Just create a Blockchain Service and you can start bulding Applications with your blockchain.</p>\n<p>If you already use Visual Studio Code, you can even provision your Azure Blockchain Service without even leaving Code. Just install the <a href=\"https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain\">Azure Blockchain Development Kit for Ethereum</a> and you can create the Service right in VS Code.</p>",
+            "author": {
+                "name": "Patrick Bossier"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-12T00:40:42+02:00",
+            "date_modified": "2019-05-12T00:40:42+02:00"
+        }
     ]
 }

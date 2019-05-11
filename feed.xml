@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>PB</title>
+    <title>Azure Blog</title>
     <link href="https://theragus.github.io/feed.xml" rel="self" />
     <link href="https://theragus.github.io" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2019-05-12T00:42:41+02:00</updated>
     <author>
         <name>Patrick Bossier</name>
     </author>
     <id>https://theragus.github.io</id>
 
+    <entry>
+        <title>Azure Blockchain Service now in Public Preview</title>
+        <author>
+            <name>Patrick Bossier</name>
+        </author>
+        <link href="https://theragus.github.io/azure-blockchain-service-now-in-public-preview.html"/>
+        <id>https://theragus.github.io/azure-blockchain-service-now-in-public-preview.html</id>
+
+        <updated>2019-05-12T00:40:42+02:00</updated>
+            <summary>
+                <![CDATA[
+                    At Build 2019, Microsoft anounced their new fully managed Blockchain Service, which is now in Public Preview. Read the Blog Entry here. Azure Blockchain Service takes the heavy load of operating nodes and networks and allows easy creation of permissioned blockchain networks. The first Ledger&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>At Build 2019, Microsoft anounced their new fully managed Blockchain Service, which is now in Public Preview. Read the Blog Entry <a href="https://azure.microsoft.com/de-de/blog/digitizing-trust-azure-blockchain-service-simplifies-blockchain-development/">here</a>.</p>
+<p>Azure Blockchain Service takes the heavy load of operating nodes and networks and allows easy creation of permissioned blockchain networks. The first Ledger thats gonna be available on Azure Blockchain Service is Quorum, which is based on the Ethereum, which is one of the largest Blockchain developer communities out there.</p>
+<p>You can try it our yourself today in the Azure Portal. Just create a Blockchain Service and you can start bulding Applications with your blockchain.</p>
+<p>If you already use Visual Studio Code, you can even provision your Azure Blockchain Service without even leaving Code. Just install the <a href="https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain">Azure Blockchain Development Kit for Ethereum</a> and you can create the Service right in VS Code.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
